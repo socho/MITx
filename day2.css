@@ -1,0 +1,60 @@
+h1{font-family: fantasy;}
+/*This is comment*/
+.calculator {
+	font-size: 20pt;
+}
+#calc1 {
+	font-style: italic;
+}
+.calculator {
+	position:relative;
+}
+.calculator button {
+	font-size: 15pt;
+	font-family: "Times New Roman";
+	width: 100px;
+	height: 100px;
+	/*padding: 50px;*/
+	margin: 10px;
+	border-radius: 15px;
+	display: inline;
+	position: absolute;
+	left: 400px;
+	top: 0px;
+	/*z-index: -1;*/
+}
+.calculator input[type="text"] {
+	font-size: 30pt;
+	width: 400px;
+	height: 100px;
+	margin: 10px;
+	border-radius: 15px;
+	display: inline;
+}
+
+.calculator input:hover {
+	border-color: black;
+}
+
+.calculator input:focus {
+	border-color: orange;
+	background-color: yellow;
+}
+
+.calculator div {
+	font-size: 30pt;
+	width: 400px;
+	height: 100px;
+	margin: 10px;
+	border-color: #16368e;
+	border-style: solid;
+	background-color: #75a9bc;
+	border-radius: 10px;
+	display: block;
+	/*visibility: hidden;*/
+	display: none;
+}
+
+.happy {
+	color: #75a9bc;
+}
