@@ -147,7 +147,7 @@ function test_mouse() {
     canvas.bind("mousemove",function(event) {
         var mx = Math.round(event.pageX - offset.left);
         var my = Math.round(event.pageY - offset.top);
-        //ctx.clearRect(0,0,canvas.width(),canvas.height());
+        ctx.clearRect(0,0,canvas.width(),canvas.height());
         //complicated_figure(ctx);
         ctx.drawImage(bg_image,0,0);
         ctx.beginPath();
