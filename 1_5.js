@@ -7,14 +7,14 @@ function calculate (text) {
 }
 
 function setup_calc(div) {
-	var input = $('<input type="text" size="50">');
+	var input = $('<input></input>',{type: 'text', size: 50});
 	var button = $('<button>Calculate</button>');
 	var output = $('<div></div>');
 
 	//event handler for button
 	button.bind("click",function() {
-		output.html(String(calculate(input.val()))
-	});
+		output.html(String(calculate(input.val())));
+	})
 
 	$(div).append(input,button,output);
 }
