@@ -1,0 +1,110 @@
+<html>
+<head>
+    <title>Twitter Bootstrap Examples</title>
+    <link href="/Users/soyeuncho/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="/Users/soyeuncho/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<!-- Main Container -->
+	<div class="container">
+		<!-- Menu Bar -->
+		<div class="navbar">
+			<div class="navbar-inner">
+				<a class="brand" href="#main">Ashley's Page</a>
+			    <ul class="nav">
+			    	<li class="active"><a href="#home">Home</a></li>
+    				<li><a href="#about">About</a></li>
+					<li><a href="#photos">Photos</a></li>
+				</ul>
+				<!-- Form -->
+				<form class="navbar-form pull-right">
+				<input type="text" class="span2">
+				<button type="submit" class="btn">Submit</button>
+			</form>
+
+			</div>
+		</div>
+	    <h1>Twitter Bootstrap</h1>
+	    <p>This is the first example!</p>
+
+	    <!-- Grid System -->
+	    
+	    <div class="row">
+	    	<div class="span4">
+	    		<h2>Emma Willard</h2>
+	    		<p>high school in Troy, NY.</p>
+	    	</div>
+	    	<div class="span4">
+	    		<h2>MIT</h2>
+	    		<p>Massachusetts Institute of Tech</p>
+	    	</div>
+	    	<div class="span4">
+	    		<h2>What Next?</h2>
+	    		<p>ROK? USA?</p>
+	    	</div>
+	    </div>
+
+	    <div class="row">
+	    	<div class="span6">
+	    		<h2>English</h2>
+	    		<p>blahals kdjf;laj sdfl ;jasl; dfja; lskjdl f;jasl ;dfjal;s dkjf ;las jdf; lkajs d;fk ja s;ldf jka l;sfa sdfa sd fasdf asdf asdf asdfsfa sdf</p>
+	    	</div>
+	    	<div class="span6">
+	    		<h2>Korean</h2>
+	    		<p>annyung~</p>
+	    	</div>
+	    </div>
+
+	    <hr>
+
+	    <ul class="nav nav-tabs">
+		    <li class="active"><a href="#korea" data-toggle="tab">Korea</a></li>
+		    <li><a href="#us" data-toggle="tab">US</a></li>
+ 		   <li><a href="#china" data-toggle="tab">China</a></li>
+		</ul>
+ 
+		<!-- The tab content. -->
+		<div id="my-tab-content" class="tab-content">
+ 
+    		<div class="tab-pane active" id="korea">
+        		<p>Seoul's awesome.</p>
+    		</div>
+ 
+	    	<div class="tab-pane" id="us">
+    	    	<p>MA has Cambridge.</p>
+    		</div>
+ 
+	    	<div class="tab-pane" id="china">
+    	    	<p>Shanghai twist.</p>
+    	    	<!-- Button for modal -->
+    	    	<a href="#popup" role="button" class="btn" data-toggle="modal">Click here to go to China</a>
+    	    	<!-- Modal -->
+    	    	<div id="popup" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="popupLabel" aria-hidden="true">
+	 	   			<div class="modal-header">
+	        			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+	        			<h3 id="popupLabel">Login</h3>
+	    			</div>
+	    			<div class="modal-body">
+	        			<p>Enter login details...</p>
+	    			</div>
+	    			<div class="modal-footer">
+	        			<button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+	        			<button class="btn btn-primary">Login</button>
+	    			</div>
+				</div>
+	    	</div>
+		</div>
+
+		<div class="pagination">
+			<ul>
+				<li><a href="#">Prev</a></li>
+				<li><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">Next</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html> 
